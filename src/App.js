@@ -3,6 +3,7 @@ import './App.css';
 import Evento from './components/Evento';
 import Form from './components/Form';
 import Condicional from './components/Condicional';
+import Lista from './components/Lista';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Evento />
       <hr />
       <Condicional />
+      <Lista />
     </div>
   );
 }

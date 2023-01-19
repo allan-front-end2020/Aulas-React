@@ -12,7 +12,7 @@ function Form() {
 
   return (
     <>
-      <h1>Cadastro do malandro</h1>
+      <h1>Cadastro de usuarios</h1>
       <form onSubmit={cadastrarUsuario}>
         <div>
           <label htmlFor="name"></label>
